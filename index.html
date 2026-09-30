@@ -73,11 +73,11 @@ tbody tr.link:hover{background:#FFF1E2}
 .chip{display:inline-block;font:700 12px var(--body);padding:2px 7px;border-radius:4px;background:var(--orange);color:#fff;margin-left:6px;text-transform:uppercase;letter-spacing:.04em}
 
 /* team badge: team-color disc with abbreviation; logo image sits on top when it loads */
-.logo{--tc:#444;--ti:#fff;position:relative;display:inline-grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%;background:var(--tc);color:var(--ti);font:italic 800 11px/1 var(--display);letter-spacing:-.02em;overflow:hidden;border:2px solid var(--paper);box-shadow:0 0 0 1px var(--line)}
+.logo{--tc:#444;--ti:#fff;position:relative;display:inline-grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%;background:var(--tc);color:var(--ti);font:italic 800 11px/1 var(--display);letter-spacing:-.02em;overflow:hidden;border:2px solid var(--paper);box-shadow:0 0 0 2.5px var(--tc)}
 .logo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:var(--paper);padding:3px;opacity:0}
 .logo img.ok{opacity:1}
-.logo.xl{width:120px;height:120px;font-size:30px;border-width:4px}
-.logo.lg{width:56px;height:56px;font-size:15px}
+.logo.xl{width:120px;height:120px;font-size:30px;border-width:5px;box-shadow:0 0 0 4px var(--tc),0 0 0 7px var(--paper)}
+.logo.lg{width:56px;height:56px;font-size:15px;box-shadow:0 0 0 3px var(--tc)}
 
 /* strength bar */
 .bar{position:relative;height:12px;min-width:140px;border-radius:6px;background:#F3E6D6}
@@ -141,7 +141,7 @@ tbody tr.link:hover{background:#FFF1E2}
 .studio canvas{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 2px 0 var(--line)}
 .studio img.out{width:100%;height:auto;display:block;border-radius:8px}
 .lw{position:relative;display:inline-flex;flex:none}
-.lw .rpill{position:absolute;top:-7px;left:-9px;z-index:1;box-shadow:0 0 0 2px var(--paper)}
+.lw .rpill{position:absolute;top:-8px;left:-10px;z-index:1;box-shadow:0 0 0 2px var(--paper)}
 .rpill{display:inline-grid;place-items:center;min-width:20px;height:18px;padding:0 4px;border-radius:9px;background:var(--orange);color:#fff;font:italic 800 11px/1 var(--display);vertical-align:middle}
 [hidden]{display:none!important}
 footer{color:var(--muted);font-size:14px;padding-block:24px 40px;border-top:1px solid var(--line)}
