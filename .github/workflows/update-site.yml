@@ -1,0 +1,36 @@
+name: Update AR Poll
+
+on:
+  schedule:
+    - cron: "0 13 * * 0"   # Sundays 8:00 AM Central: results from Saturday
+    - cron: "0 13 * * 3"   # Wednesdays 8:00 AM Central: new lines for the week
+  workflow_dispatch:        # adds a "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r engine/requirements.txt
+      - name: Download games and lines
+        working-directory: engine
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: python fetch_cfbd.py
+      - name: Rebuild site
+        working-directory: engine
+        run: python build_site.py
+      - name: Publish
+        run: |
+          git config user.name "AR Poll bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Weekly AR Poll update"
+          git push
