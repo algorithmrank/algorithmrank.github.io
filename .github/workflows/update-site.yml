@@ -9,12 +9,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-site        # never run two updates at once
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"   # no __pycache__ files in the repo
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+        with:
+          ref: main                  # always the latest version, even on a re-run
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install
@@ -31,6 +39,9 @@ jobs:
         run: |
           git config user.name "AR Poll bot"
           git config user.email "actions@users.noreply.github.com"
+          rm -rf engine/__pycache__
           git add -A
-          git diff --cached --quiet || git commit -m "Weekly AR Poll update"
+          git diff --cached --quiet && exit 0
+          git commit -m "Weekly AR Poll update"
+          git pull --rebase -X theirs origin main   # pick up anything uploaded during the run
           git push
