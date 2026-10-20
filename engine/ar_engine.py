@@ -16,6 +16,18 @@ def soft(m, k):
     return np.sign(m) * k * np.log1p(np.abs(m) / k)
 
 
+def load_eff(paths):
+    """Per-game offensive efficiency from CFBD advanced game stats files (adv_YYYY.csv): {game id: {team: total PPA}}."""
+    out = {}
+    for p in paths:
+        with open(p, encoding='utf-8-sig', newline='') as fh:
+            for r in csv.DictReader(fh):
+                try: v = float(r['TotalPPA'])
+                except (ValueError, KeyError): continue
+                out.setdefault(str(r['GameId']), {})[r['Team']] = v
+    return out
+
+
 def load_games(paths, season=None, fbs_only_home=False):
     seen, out = set(), []
     for p in paths:
@@ -63,6 +75,22 @@ class Season:
         self.confgame = np.array([r[6] for r in rows]); self.ids = [r[7] for r in rows]
         self.played = ~np.isnan(self.hp)
         self.T = T
+        self.eff = np.full(len(rows), np.nan)   # home team's efficiency margin (PPA points), when available
+
+    def set_eff(self, eff):
+        """eff: {game id: {team: offensive total PPA}} -> home-view efficiency margin per game."""
+        for i, g in enumerate(self.games):
+            d = eff.get(str(g['Id']))
+            if d and g['HomeTeam'] in d and g['AwayTeam'] in d:
+                self.eff[i] = d[g['HomeTeam']] - d[g['AwayTeam']]
+        return self
+
+    def mixed(self, idx, P):
+        """Margin used for credit: actual margin, blended with the efficiency margin by eff_w where available."""
+        raw = self.hp[idx] - self.ap[idx]; w = (P or {}).get('eff_w', 0.0)
+        if not w: return raw
+        e = self.eff[idx]
+        return np.where(np.isnan(e), raw, (1 - w) * raw + w * e)
 
     def rate(self, through_week, prior=None, P=None):
         """Ratings using games in weeks <= through_week. Returns (S[T,NW], hfa)."""
@@ -82,7 +110,7 @@ class Season:
         h, a, wk = self.h[use], self.a[use], self.wk[use]
         raw = self.hp[use] - self.ap[use]
         loc = np.where(self.home[use] == 1, 1.0, P.get('neutral_frac', 0.0))
-        m = raw - hfa * loc
+        m = self.mixed(use, P) - hfa * loc              # win bonus below still follows the real result
         wb = P.get('win_bonus', 0.0); lp = P.get('loss_penalty', wb)   # loss penalty defaults to the win bonus (symmetric)
         base = soft(m, P['soft_k'])
         if P.get('margin_cap'): base = np.clip(base, -P['margin_cap'], P['margin_cap'])

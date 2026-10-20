@@ -25,6 +25,9 @@ seasons = {}
 for g in ALL: seasons.setdefault(int(g['Season']), []).append(g)
 SEAS = {y: Season(gs) for y, gs in sorted(seasons.items())}
 LINES = load_lines()
+from ar_engine import load_eff
+EFF = load_eff([f for f in glob.glob('data/adv_*.csv')])
+for _s in SEAS.values(): _s.set_eff(EFF)
 
 def final_ratings(y, P, prior=None):
     s = SEAS[y]; S, _ = s.rate(99, prior, P)
