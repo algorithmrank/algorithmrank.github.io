@@ -146,10 +146,11 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401858485,Penn State,23,USC,31,Bovada,-1
 401868189,UT Martin,17,Gardner-Webb,6,DraftKings,1.5
 401858313,North Carolina,,NC State,,DraftKings,1.5
-401858523,Oregon,,Michigan,,DraftKings,-10.5
-401868310,Nicholls,0,Stephen F. Austin,56,DraftKings,22.5
-401858518,Indiana,,USC,,DraftKings,-7
 401856885,LSU,,Texas,,DraftKings,-4
+401856885,LSU,,Texas,,Bovada,-4
+401868310,Nicholls,0,Stephen F. Austin,56,DraftKings,22.5
+401858518,Indiana,,USC,,DraftKings,-7.5
+401858518,Indiana,,USC,,Bovada,-7.5
 401868105,Weber State,27,Idaho State,20,DraftKings,4.5
 401866616,UAlbany,28,New Hampshire,14,DraftKings,10
 401856764,Clemson,,South Carolina,,DraftKings,-3
@@ -168,6 +169,8 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401867993,Bucknell,7,Lafayette,20,DraftKings,4.5
 401856759,Florida State,,Florida,,DraftKings,4.5
 401858543,UCLA,,USC,,DraftKings,10.5
+401856888,Texas A&M,,Tennessee,,DraftKings,2.5
+401856888,Texas A&M,,Tennessee,,Bovada,2.5
 401856734,Georgia,27,Florida,8,DraftKings,-11.5
 401856734,Georgia,27,Florida,8,Bovada,-12
 401858511,Michigan,6,Michigan State,15,DraftKings,-14
@@ -203,21 +206,20 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401856717,Oklahoma,27,Texas,24,Bovada,8
 401866667,Campbell,24,Towson,20,DraftKings,-11.5
 401867968,Tennessee State,25,Morgan State,16,DraftKings,6
-401856887,Oklahoma,,Ole Miss,,DraftKings,2.5
+401856863,Oklahoma State,,Texas Tech,,DraftKings,-3.5
+401856863,Oklahoma State,,Texas Tech,,Bovada,-3.5
 401858490,Michigan,21,Penn State,18,DraftKings,-6
 401858490,Michigan,21,Penn State,18,Bovada,-6
 401858492,Oregon,17,Nebraska,14,DraftKings,-6.5
 401858492,Oregon,17,Nebraska,14,Bovada,-7
 401858509,USC,30,Ohio State,18,DraftKings,6.5
 401858509,USC,30,Ohio State,18,Bovada,6
-401856888,Texas A&M,,Tennessee,,DraftKings,3
 401856719,Georgia,24,Auburn,27,DraftKings,-19.5
 401856719,Georgia,24,Auburn,27,Bovada,-19.5
 401856849,Utah,28,BYU,20,DraftKings,-4
 401856849,Utah,28,BYU,20,Bovada,-4.5
 401858280,Florida State,24,Clemson,36,DraftKings,-4.5
 401858280,Florida State,24,Clemson,36,Bovada,-6.5
-401856863,Oklahoma State,,Texas Tech,,DraftKings,-3
 401871094,Troy,14,UL Monroe,21,DraftKings,-13.5
 401871094,Troy,14,UL Monroe,21,Bovada,-13.5
 401868207,Southeast Missouri State,40,Western Illinois,30,DraftKings,-6
@@ -231,11 +233,14 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401858266,Duke,20,North Carolina,24,Bovada,-3
 401856723,Tennessee,26,Alabama,10,DraftKings,7.5
 401856723,Tennessee,26,Alabama,10,Bovada,8
+401856887,Oklahoma,,Ole Miss,,DraftKings,1.5
+401856887,Oklahoma,,Ole Miss,,Bovada,1
 401858514,Ohio State,28,Oregon,41,DraftKings,-7.5
 401858514,Ohio State,28,Oregon,41,Bovada,-8
+401858296,Miami,,Duke,,DraftKings,-13.5
+401858296,Miami,,Duke,,Bovada,-13.5
 401856740,LSU,13,Alabama,31,DraftKings,-6
 401856740,LSU,13,Alabama,31,Bovada,-6
-401858296,Miami,,Duke,,DraftKings,-14.5
 401871069,Delaware,61,Missouri State,38,DraftKings,-3
 401871069,Delaware,61,Missouri State,38,Bovada,-3
 401864525,Wyoming,28,Air Force,14,DraftKings,7
@@ -1157,15 +1162,23 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401858238,Miami,52,Central Michigan,3,DraftKings,-41.5
 401858238,Miami,52,Central Michigan,3,Bovada,-41
 401867857,Indiana State,39,Valparaiso,16,DraftKings,-22.5
-401858298,North Carolina,,Louisville,,DraftKings,2.5
-401856883,Georgia,,Missouri,,DraftKings,-13.5
-401858301,SMU,,Wake Forest,,DraftKings,2.5
+401856884,Kentucky,,Florida,,DraftKings,-3.5
+401856884,Kentucky,,Florida,,Bovada,-3.5
+401856883,Georgia,,Missouri,,DraftKings,-15.5
+401856883,Georgia,,Missouri,,Bovada,-16
 401868259,Drake,17,San Diego,40,DraftKings,1.5
+401858526,UCLA,,Illinois,,DraftKings,-10
+401858526,UCLA,,Illinois,,Bovada,-10
+401860914,Boise State,,Oregon State,,DraftKings,-13.5
+401860914,Boise State,,Oregon State,,Bovada,-13.5
 401868350,East Tennessee State,35,Samford,37,DraftKings,-13.5
-401860914,Boise State,,Oregon State,,DraftKings,-9.5
-401856864,Arizona,,Utah,,DraftKings,2.5
+401856858,BYU,,Baylor,,DraftKings,-7.5
+401856858,BYU,,Baylor,,Bovada,-7
+401858301,SMU,,Wake Forest,,DraftKings,-1.5
+401858301,SMU,,Wake Forest,,Bovada,-1
 401867957,Delaware State,24,Morgan State,14,DraftKings,-3.5
-401856884,Kentucky,,Florida,,DraftKings,-3
+401858298,North Carolina,,Louisville,,DraftKings,3.5
+401858298,North Carolina,,Louisville,,Bovada,3.5
 401868216,Butler,41,St. Thomas (MN),14,DraftKings,-1.5
 401868168,Weber State,49,Northwestern State,20,DraftKings,-35.5
 401868205,Western Illinois,59,Morehead State,2,DraftKings,-20.5
@@ -1180,14 +1193,14 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401866682,Sacred Heart,40,Towson,43,DraftKings,1.5
 401867810,Yale,20,Brown,24,DraftKings,-7
 401867839,Princeton,21,Dartmouth,14,DraftKings,1.5
+401856864,Arizona,,Utah,,DraftKings,2.5
+401856864,Arizona,,Utah,,Bovada,2.5
 401867964,Howard,28,South Carolina State,35,DraftKings,21.5
 401867922,Duquesne,10,Robert Morris,13,DraftKings,-10
 401867976,Norfolk State,28,North Carolina Central,29,DraftKings,4
 401866683,Bryant,31,UAlbany,7,DraftKings,10.5
 401866686,New Hampshire,24,Rhode Island,21,DraftKings,7
 401858290,Wake Forest,77,Merrimack,0,DraftKings,-46.5
-401858526,UCLA,,Illinois,,DraftKings,-10
-401856858,BYU,,Baylor,,DraftKings,-7
 401867852,North Dakota,49,Illinois State,21,DraftKings,-6.5
 401864579,New Mexico State,18,New Mexico,42,DraftKings,11.5
 401864579,New Mexico State,18,New Mexico,42,Bovada,11.5
@@ -1286,7 +1299,8 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401868005,Lehigh,33,Colgate,7,DraftKings,-4.5
 401862779,Temple,17,Army,21,Bovada,4
 401862779,Temple,17,Army,21,DraftKings,4
-401858522,Ohio State,,Northwestern,,DraftKings,-10.5
+401858522,Ohio State,,Northwestern,,DraftKings,-12.5
+401858522,Ohio State,,Northwestern,,Bovada,-12.5
 401868038,Villanova,30,Richmond,0,DraftKings,-8.5
 401868224,Davidson,33,Stetson,14,DraftKings,-1.5
 401862781,East Carolina,42,North Carolina Central,9,DraftKings,-37.5
@@ -1397,24 +1411,17 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401868166,UC Davis,24,Utah Tech,17,DraftKings,-17.5
 401858422,Minnesota,59,Eastern Illinois,7,DraftKings,-42.5
 401868313,Lamar,45,Stephen F. Austin,28,DraftKings,7
-401866461,Ball State,,Buffalo,,DraftKings,3
-401858293,Pittsburgh,,Florida State,,DraftKings,-3.5
-401866463,Toledo,,Massachusetts,,DraftKings,-14
-401866462,Central Michigan,,Sacramento State,,DraftKings,-15.5
+401858519,Iowa,,Purdue,,DraftKings,-17.5
+401858519,Iowa,,Purdue,,Bovada,-17.5
 401868090,Idaho,62,Eastern Washington,31,DraftKings,-9.5
-401858520,Maryland,,Wisconsin,,DraftKings,7.5
-401856861,West Virginia,,Kansas,,DraftKings,-2.5
-401869969,UL Monroe,,Louisiana,,DraftKings,11.5
-401869928,Marshall,,App State,,DraftKings,2.5
-401869952,Georgia State,,Georgia Southern,,DraftKings,5.5
+401866461,Ball State,,Buffalo,,DraftKings,1.5
+401866461,Ball State,,Buffalo,,Bovada,1
 401868068,Austin Peay,55,Eastern Kentucky,31,DraftKings,-19.5
 401867862,Indiana State,20,Southern Illinois,37,DraftKings,5.5
-401866459,Bowling Green,,Kent State,,DraftKings,-5.5
-401866460,Miami (OH),,Ohio,,DraftKings,-1.5
 401868232,Dayton,31,Valparaiso,20,DraftKings,-8.5
-401858300,NC State,,Syracuse,,DraftKings,2.5
+401866462,Central Michigan,,Sacramento State,,DraftKings,-17.5
+401866462,Central Michigan,,Sacramento State,,Bovada,-17
 401868057,Tarleton State,40,Abilene Christian,27,DraftKings,-10
-401856889,Vanderbilt,,Alabama,,DraftKings,19.5
 401868268,Marist,14,Morehead State,13,DraftKings,-16.5
 401867933,Mercyhurst,28,Wagner,33,DraftKings,-8.5
 401869153,Nicholls,32,East Texas A&M,31,DraftKings,3
@@ -1432,30 +1439,56 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401866624,Monmouth,31,Sacred Heart,24,DraftKings,-11.5
 401866626,Davidson,0,Elon,38,DraftKings,32.5
 401866629,Hampton,3,Bryant,31,DraftKings,3.5
-401858521,Michigan State,,Washington,,DraftKings,3.5
-401858297,Clemson,,Georgia Tech,,DraftKings,-13.5
-401858524,Penn State,,Minnesota,,DraftKings,-7.5
-401862827,UTSA,,North Texas,,DraftKings,1.5
-401858519,Iowa,,Purdue,,DraftKings,-16.5
-401856886,Mississippi State,,Auburn,,DraftKings,3.5
-401862824,South Florida,,Memphis,,DraftKings,6.5
-401866458,Akron,,Western Michigan,,DraftKings,14
-401864540,UTEP,,Wyoming,,DraftKings,9.5
-401870796,Missouri State,,New Mexico State,,DraftKings,-2.5
-401858294,Notre Dame,,Boston College,,DraftKings,-31.5
-401856882,Arkansas,,South Carolina,,DraftKings,8.5
+401866463,Toledo,,Massachusetts,,DraftKings,-14
+401866463,Toledo,,Massachusetts,,Bovada,-14
+401864540,UTEP,,Wyoming,,DraftKings,7.5
+401864540,UTEP,,Wyoming,,Bovada,8.5
+401866458,Akron,14,Western Michigan,42,DraftKings,15.5
+401866458,Akron,14,Western Michigan,42,Bovada,15
+401856889,Vanderbilt,,Alabama,,DraftKings,16.5
+401856889,Vanderbilt,,Alabama,,Bovada,17
+401866459,Bowling Green,33,Kent State,28,DraftKings,-3.5
+401866459,Bowling Green,33,Kent State,28,Bovada,-4
+401858524,Penn State,,Minnesota,,DraftKings,-9.5
+401858524,Penn State,,Minnesota,,Bovada,-9
+401858294,Notre Dame,,Boston College,,DraftKings,-29.5
+401858294,Notre Dame,,Boston College,,Bovada,-29
+401866460,Miami (OH),34,Ohio,17,DraftKings,1.5
+401866460,Miami (OH),34,Ohio,17,Bovada,1.5
+401862827,UTSA,,North Texas,,DraftKings,2.5
+401862827,UTSA,,North Texas,,Bovada,2.5
+401862824,South Florida,,Memphis,,DraftKings,3.5
+401862824,South Florida,,Memphis,,Bovada,3.5
+401858293,Pittsburgh,,Florida State,,DraftKings,-3.5
+401858293,Pittsburgh,,Florida State,,Bovada,-3.5
+401869928,Marshall,,App State,,DraftKings,1.5
+401869928,Marshall,,App State,,Bovada,1.5
+401869969,UL Monroe,,Louisiana,,DraftKings,10.5
+401869969,UL Monroe,,Louisiana,,Bovada,10
+401869952,Georgia State,,Georgia Southern,,DraftKings,5.5
+401869952,Georgia State,,Georgia Southern,,Bovada,5
+401856860,Colorado,,Houston,,DraftKings,9.5
+401856860,Colorado,,Houston,,Bovada,9
+401856859,Iowa State,,Cincinnati,,DraftKings,-3
+401856859,Iowa State,,Cincinnati,,Bovada,-3
+401858525,Rutgers,,Nebraska,,DraftKings,13.5
+401858525,Rutgers,,Nebraska,,Bovada,13.5
+401858295,Virginia,,California,,DraftKings,-10
+401858295,Virginia,,California,,Bovada,-10
 401868137,Central Arkansas,35,West Georgia,14,DraftKings,-13.5
 401868321,SE Louisiana,16,Incarnate Word,35,DraftKings,4
-401856859,Iowa State,,Cincinnati,,DraftKings,-1.5
-401862829,Temple,,UAB,,DraftKings,-2.5
-401869937,Coastal Carolina,,Arkansas State,,DraftKings,-1.5
-401871100,South Alabama,,Troy,,DraftKings,-3
-401858295,Virginia,,California,,DraftKings,-12.5
 401862825,Charlotte,,East Carolina,,DraftKings,11.5
-401861967,UConn,,James Madison,,DraftKings,3
-401870769,Sam Houston,,Kennesaw State,,DraftKings,8.5
-401858525,Rutgers,,Nebraska,,DraftKings,13.5
-401856860,Colorado,,Houston,,DraftKings,10.5
+401862825,Charlotte,,East Carolina,,Bovada,12
+401869937,Coastal Carolina,,Arkansas State,,DraftKings,-1.5
+401869937,Coastal Carolina,,Arkansas State,,Bovada,-1.5
+401871100,South Alabama,,Troy,,DraftKings,-3
+401871100,South Alabama,,Troy,,Bovada,-3
+401856882,Arkansas,,South Carolina,,DraftKings,7.5
+401856882,Arkansas,,South Carolina,,Bovada,8
+401870769,Sam Houston,,Kennesaw State,,DraftKings,7.5
+401870769,Sam Houston,,Kennesaw State,,Bovada,7
+401861967,UConn,,James Madison,,DraftKings,4
+401861967,UConn,,James Madison,,Bovada,4
 401866630,Maine,14,Merrimack,23,DraftKings,-10
 401866631,New Hampshire,42,Stonehill,35,DraftKings,-13.5
 401866632,Long Island University,13,UAlbany,35,DraftKings,2.5
@@ -1479,7 +1512,10 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401867867,Murray State,27,Valparaiso,18,DraftKings,-14
 401867874,North Dakota,42,Long Island University,21,DraftKings,-27.5
 401867875,North Dakota,62,St. Thomas (MN),26,DraftKings,-28.5
-401871099,Louisiana Tech,,Southern Miss,,DraftKings,-18.5
+401862829,Temple,,UAB,,DraftKings,-2.5
+401862829,Temple,,UAB,,Bovada,-2.5
+401871099,Louisiana Tech,,Southern Miss,,DraftKings,-17.5
+401871099,Louisiana Tech,,Southern Miss,,Bovada,-17.5
 401867876,Portland State,23,North Dakota,47,DraftKings,25.5
 401867883,Northern Colorado,23,South Dakota,38,DraftKings,20.5
 401867889,Samford,18,Southern Illinois,22,DraftKings,20.5
@@ -1552,15 +1588,34 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401869147,Incarnate Word,30,Houston Christian,23,DraftKings,-14
 401872616,South Dakota State,57,New Haven,14,DraftKings,-42.5
 401874035,West Florida,34,Southern Illinois,31,DraftKings,19.5
-401858299,Virginia Tech,,Stanford,,DraftKings,-16.5
+401858297,Clemson,,Georgia Tech,,DraftKings,-13.5
+401858297,Clemson,,Georgia Tech,,Bovada,-13.5
+401858520,Maryland,,Wisconsin,,DraftKings,8.5
+401858520,Maryland,,Wisconsin,,Bovada,8.5
+401864536,Northern Illinois,,Nevada,,DraftKings,7
+401864536,Northern Illinois,,Nevada,,Bovada,7
+401871060,Delaware,,Florida International,,DraftKings,-4.5
+401871060,Delaware,,Florida International,,Bovada,-5
+401870752,Western Kentucky,,Jacksonville State,,DraftKings,7.5
+401870752,Western Kentucky,,Jacksonville State,,Bovada,7.5
+401856886,Mississippi State,,Auburn,,DraftKings,2.5
+401856886,Mississippi State,,Auburn,,Bovada,2.5
+401860916,Texas State,,Fresno State,,DraftKings,-10
+401860916,Texas State,,Fresno State,,Bovada,-9.5
+401858300,NC State,,Syracuse,,DraftKings,3
+401858300,NC State,,Syracuse,,Bovada,2.5
+401858299,Virginia Tech,,Stanford,,DraftKings,-15.5
+401858299,Virginia Tech,,Stanford,,Bovada,-15
+401864537,Hawai'i,,North Dakota State,,DraftKings,6.5
+401864537,Hawai'i,,North Dakota State,,Bovada,6.5
 401860915,San Diego State,,Utah State,,DraftKings,2.5
-401870752,Western Kentucky,,Jacksonville State,,DraftKings,6.5
-401864536,Northern Illinois,,Nevada,,DraftKings,9.5
-401864538,Air Force,,San José State,,DraftKings,-10.5
-401864537,Hawai'i,,North Dakota State,,DraftKings,8.5
-401871060,Delaware,,Florida International,,DraftKings,-6
-401860916,Texas State,,Fresno State,,DraftKings,-7.5
+401860915,San Diego State,,Utah State,,Bovada,2.5
+401864538,Air Force,,San José State,,DraftKings,-12.5
+401864538,Air Force,,San José State,,Bovada,-12.5
 401856857,UCF,,Arizona State,,DraftKings,-3
+401856857,UCF,,Arizona State,,Bovada,-3
+401856861,West Virginia,,Kansas,,DraftKings,-3
+401856861,West Virginia,,Kansas,,Bovada,-3
 401856711,Texas A&M,34,Arkansas,7,DraftKings,-13.5
 401856711,Texas A&M,34,Arkansas,7,Bovada,-14
 401858246,SMU,25,Boston College,16,DraftKings,-21.5
@@ -1573,8 +1628,8 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401856819,Houston,27,UCF,17,Bovada,-10.5
 401866431,Ball State,24,Toledo,39,DraftKings,20.5
 401866431,Ball State,24,Toledo,39,Bovada,21
-401864539,New Mexico,,UNLV,,DraftKings,-13.5
-401856862,TCU,,Kansas State,,DraftKings,-9.5
+401856862,TCU,,Kansas State,,Bovada,-10
+401856862,TCU,,Kansas State,,DraftKings,-10
 401866432,Buffalo,17,Western Michigan,20,DraftKings,13.5
 401866432,Buffalo,17,Western Michigan,20,Bovada,13
 401858252,UConn,41,Syracuse,42,Bovada,6.5
@@ -1590,7 +1645,6 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401869962,James Madison,45,Marshall,17,Bovada,-18
 401871089,South Alabama,52,UL Monroe,35,DraftKings,-12.5
 401871089,South Alabama,52,UL Monroe,35,Bovada,-14
-401862828,Rice,,Tulane,,DraftKings,-1.5
 401866433,Massachusetts,14,Eastern Michigan,38,Bovada,-6
 401866433,Massachusetts,14,Eastern Michigan,38,DraftKings,-5.5
 401862792,South Florida,13,Temple,17,DraftKings,-5.5
@@ -1607,7 +1661,8 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401864515,North Dakota State,28,Wyoming,0,Bovada,-17
 401860900,San Diego State,31,Texas State,29,DraftKings,10
 401860900,San Diego State,31,Texas State,29,Bovada,9.5
-401860917,Washington State,,Colorado State,,DraftKings,-7
+401864539,New Mexico,,UNLV,,DraftKings,-14
+401864539,New Mexico,,UNLV,,Bovada,-14
 401856822,Iowa State,45,West Virginia,42,Bovada,-3
 401856822,Iowa State,45,West Virginia,42,DraftKings,-3
 401866477,Miami (OH),20,Bowling Green,24,Bovada,-12
@@ -1628,6 +1683,8 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401858251,Wake Forest,57,Stanford,3,DraftKings,-14.5
 401858472,Illinois,17,Purdue,24,Bovada,-10
 401858472,Illinois,17,Purdue,24,DraftKings,-9.5
+401862828,Rice,,Tulane,,DraftKings,-2.5
+401862828,Rice,,Tulane,,Bovada,-2.5
 401860899,Colorado State,26,Oregon State,56,Bovada,7
 401860899,Colorado State,26,Oregon State,56,DraftKings,7
 401858247,UNLV,39,California,31,DraftKings,-1.5
@@ -1638,8 +1695,12 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401858253,Florida State,38,Virginia,7,Bovada,1
 401862788,Rice,14,UTSA,16,DraftKings,11.5
 401862788,Rice,14,UTSA,16,Bovada,12.5
-401862826,Tulsa,,Florida Atlantic,,DraftKings,-5.5
+401860917,Washington State,,Colorado State,,DraftKings,-9.5
+401860917,Washington State,,Colorado State,,Bovada,-9.5
 401871061,Liberty,,Middle Tennessee,,DraftKings,-20.5
+401871061,Liberty,,Middle Tennessee,,Bovada,-21
+401862826,Tulsa,,Florida Atlantic,,DraftKings,-5.5
+401862826,Tulsa,,Florida Atlantic,,Bovada,-5.5
 401858475,Nebraska,48,Maryland,23,DraftKings,-15.5
 401858475,Nebraska,48,Maryland,23,Bovada,-14.5
 401862787,Charlotte,8,Memphis,59,DraftKings,18.5
@@ -1652,8 +1713,14 @@ Id,HomeTeam,HomeScore,AwayTeam,AwayScore,LineProvider,Spread
 401869942,Coastal Carolina,24,Georgia Southern,31,Bovada,2
 401869842,Louisiana Tech,31,Army,29,DraftKings,-1.5
 401869842,Louisiana Tech,31,Army,29,Bovada,1
+401870796,Missouri State,,New Mexico State,,Bovada,-1
+401870796,Missouri State,,New Mexico State,,DraftKings,-1.5
 401869932,Louisiana,23,Arkansas State,20,DraftKings,-4.5
 401869932,Louisiana,23,Arkansas State,20,Bovada,-6
+401858523,Oregon,,Michigan,,Bovada,-11
+401858523,Oregon,,Michigan,,DraftKings,-10.5
+401858521,Michigan State,,Washington,,Bovada,3.5
+401858521,Michigan State,,Washington,,DraftKings,3.5
 401862791,Air Force,14,Navy,9,Bovada,-3
 401862791,Air Force,14,Navy,9,DraftKings,-2.5
 401868094,Idaho,35,Montana State,34,DraftKings,14.5
